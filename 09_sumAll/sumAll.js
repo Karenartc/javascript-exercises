@@ -5,8 +5,7 @@ const sumAll = function(num1, num2) {
         let sum = 0;
 
         for(let i = minorNumber; i <= greaterNumber; i++){
-            let numberToSum = i;
-            sum += numberToSum;
+            sum += i;
         }
 
         return sum;
